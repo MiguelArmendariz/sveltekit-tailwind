@@ -20,7 +20,7 @@ Tailwind can be used inline adding a class attribute to an HTML element
 `class="text-center"`
 
 It also can be used within the `style` block
-```
+```html
 <button class="btn-primary">
 
 <style lang="postcss">
@@ -30,7 +30,7 @@ It also can be used within the `style` block
 </style>
 ```
 **Important**
-Do not user @layer in component styles aka inside `<style>` blocks.
+Do not use `@layer` in component styles aka inside `<style>` blocks.
 Note how attribute `lang="postcss"` is used when tailwind `@apply` is being used.
 
 ## Playwright
@@ -71,6 +71,7 @@ npm run dev -- {params}
 
 # Params list
 # --open : open the app in a new browser tab
+# --host : exposes the app
 
 ```
 
