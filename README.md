@@ -6,9 +6,9 @@ It has been tweaked for fitting my own style/projects.
 
 # Development tools
   
-  TailwindCSS
-  Playwright
-  Vitest
+  - TailwindCSS
+  - Playwright
+  - Vitest
 
 ## TailwindCSS
 
